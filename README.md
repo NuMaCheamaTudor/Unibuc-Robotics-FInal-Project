@@ -1,5 +1,11 @@
 # F.O.C.A. – Robot Inspired by *RObotzi*
 
+<p align="center">
+  <img width="928" height="1120" alt="Gemini_Generated_Image_46zvy246zvy246zv" src="https://github.com/user-attachments/assets/df2410ce-a8df-42d2-b4a0-52d6b693f5f6" />
+</p>
+
+
+
 ## General Description
 
 This project is a physical and functional reinterpretation of **F.O.C.A.**, a character from the Romanian animated series *RObotzi*. The goal is to build a small autonomous mobile robot capable of perceiving its environment, interacting with humans, and moving intelligently in dynamic and unstructured spaces.
