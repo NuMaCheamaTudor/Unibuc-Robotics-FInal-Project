@@ -143,7 +143,7 @@ flowchart TD
   D -- Yes --> E[Target Lock + Tracking]
   E --> F[Obstacle Check]
   F --> G{Path Clear?}
-  G -- Yes --> H[Follow Controller<br/> (distance + heading)]
+ G -- Yes --> H[Follow Controller - distance and heading]
   G -- No --> I[Avoidance Maneuver]
   H --> J[Motor Command Output]
   I --> J
