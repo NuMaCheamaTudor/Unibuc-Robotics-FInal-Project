@@ -181,13 +181,13 @@ sequenceDiagram
 
 ```mermaid
 flowchart LR
-  A[Event Trigger\n(e.g. target found / obstacle / greeting)]
-    --> B[Select Phrase / Response]
+  A[Event Trigger: target found or obstacle or greeting] --> B[Select Phrase or Response]
   B --> C{Voice Source}
   C -- Local audio --> D[Playback]
   C -- Optional voice synthesis API --> E[Fetch audio]
   E --> D
-  D --> F[Return to Autonomy Loop]
+  D --> F[Return to autonomy loop]
+
 ```
 
 
